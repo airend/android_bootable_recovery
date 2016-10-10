@@ -16,7 +16,6 @@ on early-init
     restorecon /postinstall
 
     start ueventd
-    start healthd
 
 service set_permissive /sbin/permissive.sh
     oneshot
